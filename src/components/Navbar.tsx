@@ -4,10 +4,9 @@ import "./Navbar.css";
 const Navbar: FC = () => {
   return (
     <nav>
-      <div>
+      {/* <div>
         <span>Barca</span> & <span>Zdenda</span>
-      </div>
-      <div className="divider" />
+      </div> */}
     </nav>
   );
 };
