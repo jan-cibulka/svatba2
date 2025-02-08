@@ -29,9 +29,7 @@ const Section1: FC = () => {
           <div className="item-bottom">místo</div>
         </div>
       </div>
-      <div className="image-wrapper">
-        <img src="/src/assets/xaxa.jpg" alt="xaxa" width={100} height={100} />
-      </div>
+      <img src="/src/assets/na_vysku.png" width={100} height={100} />
       <div className="text">
         <p className="title">{title}</p>
         <p className="text-1">{text1}</p>
