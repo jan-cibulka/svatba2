@@ -4,9 +4,10 @@
   align-items: center;
   min-height: 100vh;
   max-width: 100%;
-  border: 1px solid green;
-  background: var(--background-color-1);
-  color: var(--text-color-1);
+  background: var(--color-background-1);
+  color: var(--color-text-1);
+  font-family: "Rufina";
+  position: relative;
 }
 
 #root {

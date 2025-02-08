@@ -1,0 +1,54 @@
+.date-place {
+  display: flex;
+  gap: 20px;
+  border-bottom: var(--size-divider) solid var(--color-divider-1);
+  width: 70%;
+  justify-content: space-between;
+}
+
+.section1 {
+  border: var(--size-divider) solid var(--color-divider-1);
+  border-radius: 40px;
+  padding: 36px;
+}
+
+.names {
+  display: flex;
+  justify-content: center;
+  font-family: "Beau Rivage", Arial, sans-serif;
+  font-size: var(--size-text-1);
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.item-top {
+  color: var(--color-text-1);
+  font-size: var(--size-text-1);
+}
+
+.item-bottom {
+  color: var(--color-text-2);
+  font-size: var(--size-text-2);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: var(--size-text-3);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0px;
+}
+
+.text-1,
+.text-2 {
+  font-size: var(--size-text-2);
+}
