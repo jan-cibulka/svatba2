@@ -16,8 +16,7 @@
   display: flex;
   justify-content: center;
   font-family: "Beau Rivage", Arial, sans-serif;
-  font-size: var(--size-text-1);
-  font-size: 40px;
+  font-size: calc(5vw + 10px);
   font-weight: 300;
 }
 
