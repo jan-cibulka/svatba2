@@ -6,7 +6,7 @@
 }
 
 .section-wrapper {
-  max-width: 60%;
+  max-width: var(--page-content-ratio);
   min-width: 320px;
   display: flex;
   flex-direction: column;
@@ -23,11 +23,12 @@ img {
   object-fit: contain;
   border-top-left-radius: 30vw;
   border-top-right-radius: 30vw;
+  padding: 0 5%;
 }
 
 .background {
   position: absolute;
-  width: 70%;
+  width: calc(var(--page-content-ratio) + 10%);
   min-width: calc(320px + 10%);
   height: 100%;
   background: rgba(0, 0, 0, 0.03); /* Ztmavení o 10% */

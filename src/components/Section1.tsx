@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, useState } from "react";
 
 import "./Section1.css";
 
@@ -13,12 +13,19 @@ const jmeno1 = "Barča";
 const jmeno2 = "Zdeněk";
 const date = "21.06.25";
 const place = "Křimice";
+
 const Section1: FC = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  window.addEventListener("resize", () => {
+    setIsMobile(window.innerWidth < 768);
+  });
+
   return (
     <div className="section-wrapper section1">
       <div className="names">
         {jmeno1} & {jmeno2}
       </div>
+      <img src={isMobile ? "na_vysku.png" : "/landscape_reduced.png"} />
       <div className="date-place">
         <div className="container">
           <div className="item-top">{date}</div>
@@ -29,7 +36,6 @@ const Section1: FC = () => {
           <div className="item-bottom">místo</div>
         </div>
       </div>
-      <img src="/landscape_reduced.png" width={100} height={100} />
       <div className="text">
         <p className="title">{title}</p>
         <p className="text-1">{text1}</p>

@@ -23,6 +23,8 @@ const sizeText3 = "30px";
 
 const sizeDivider = "2px";
 
+const pageContentRatio = "60%";
+
 const variablesStyle = `
 --color-text-1: ${colorText1};
 --color-text-2: ${colorText2};
@@ -34,7 +36,7 @@ const variablesStyle = `
 --size-text-2: ${sizeText2};
 --size-text-3: ${sizeText3};
 --size-divider: ${sizeDivider};
-
+--page-content-ratio: ${pageContentRatio};
 `;
 
 const root = document.documentElement;
