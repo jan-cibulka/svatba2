@@ -24,6 +24,7 @@ const sizeText3 = "30px";
 const sizeDivider = "2px";
 
 const pageContentRatio = "60%";
+export const desktopThreshold = 768;
 
 const variablesStyle = `
 --color-text-1: ${colorText1};
@@ -37,6 +38,7 @@ const variablesStyle = `
 --size-text-3: ${sizeText3};
 --size-divider: ${sizeDivider};
 --page-content-ratio: ${pageContentRatio};
+--breakpoint-desktop: ${desktopThreshold}px;
 `;
 
 const root = document.documentElement;

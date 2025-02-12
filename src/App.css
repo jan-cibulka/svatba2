@@ -17,3 +17,7 @@
 * {
   box-sizing: border-box;
 }
+
+.title {
+  font-size: var(--size-text-3);
+}

@@ -1,6 +1,7 @@
 import { FC, useState } from "react";
 
-import "./Section1.css";
+import "./Intro.css";
+import { desktopThreshold } from "../App";
 
 const nonBreakingSpace = "\u00A0";
 const title = `MILÍ${nonBreakingSpace}PŘÁTELÉ A${nonBreakingSpace}RODINO`;
@@ -14,10 +15,10 @@ const jmeno2 = "Zdeněk";
 const date = "21.06.25";
 const place = "Křimice";
 
-const Section1: FC = () => {
+const Intro: FC = () => {
   const [isMobile, setIsMobile] = useState(false);
   window.addEventListener("resize", () => {
-    setIsMobile(window.innerWidth < 768);
+    setIsMobile(window.innerWidth < desktopThreshold);
   });
 
   return (
@@ -45,4 +46,4 @@ const Section1: FC = () => {
   );
 };
 
-export default Section1;
+export default Intro;

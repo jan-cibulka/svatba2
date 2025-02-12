@@ -1,0 +1,40 @@
+.bubble {
+  border-radius: 30px;
+  border: var(--size-divider) solid var(--color-divider-1);
+  width: min(250px, 100%);
+  overflow: hidden;
+  background-color: var(--color-background-2);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bubble.left {
+  align-self: flex-start;
+}
+
+.bubble.right {
+  align-self: flex-end;
+}
+
+.bubble-title {
+  font-size: var(--size-text-1);
+  align-self: center;
+  font-weight: bold;
+}
+
+.bubbles-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: min(400px, 75%);
+  padding: 20px;
+}
+
+.divider {
+  margin: 8px 0;
+  background-color: var(--color-divider-1);
+  align-self: center;
+  width: var(--size-divider);
+  height: 40px;
+}
