@@ -1,7 +1,7 @@
 .bubble {
   border-radius: 30px;
   border: var(--size-divider) solid var(--color-divider-1);
-  width: min(250px, 100%);
+  width: min(300px, 100%);
   overflow: hidden;
   background-color: var(--color-background-2);
   padding: 20px;
@@ -27,7 +27,7 @@
 .bubbles-wrapper {
   display: flex;
   flex-direction: column;
-  width: min(400px, 75%);
+  width: min(500px, 75%);
   padding: 20px;
 }
 
