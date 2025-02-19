@@ -33,7 +33,7 @@
   justify-content: center;
   gap: 16px;
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   margin: 0 auto;
   margin-top: -20px;
 }
@@ -45,8 +45,11 @@
 
 .dress-code-text {
   flex: 0 1 300px;
-  padding-top: 32px;
+  padding-top: 12px;
   margin-top: -20px;
+  max-width: 170px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dress-code-text h2 {
@@ -113,4 +116,14 @@
 /* Women's section text alignment (third dress code section) */
 .dress-code-section:nth-child(4) .dress-code-text {
   text-align: left;
+}
+
+/* Rotate men's image clockwise */
+.dress-code-section:nth-child(4) .dress-code-image {
+  transform: rotate(10deg);
+}
+
+/* Rotate women's image counterclockwise */
+.dress-code-section:nth-child(6) .dress-code-image {
+  transform: rotate(-10deg);
 }
