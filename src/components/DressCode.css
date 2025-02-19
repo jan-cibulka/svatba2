@@ -4,6 +4,7 @@
   gap: 16px;
   justify-content: center;
   margin-top: 24px;
+  margin-bottom: 40px;
   padding: 0 16px;
 }
 
@@ -24,4 +25,92 @@
     width: 60px;
     height: 60px;
   }
+}
+
+.dress-code-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+/* First section shouldn't have negative margin */
+.dress-code-section:first-of-type {
+  margin-top: 0;
+}
+
+.dress-code-text {
+  flex: 0 1 300px;
+  padding-top: 32px;
+  margin-top: -20px;
+}
+
+.dress-code-text h2 {
+  font-size: var(--size-text-1);
+  color: var(--color-text-1);
+  margin-bottom: 4px;
+}
+
+.dress-code-text p {
+  font-size: var(--size-text-2);
+  color: var(--color-text-2);
+  margin: 2px 0;
+}
+
+.dress-code-image {
+  width: 165px;
+  aspect-ratio: 436/534;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+}
+
+.dress-code-note {
+  margin-top: 48px;
+  font-size: var(--size-text-2);
+  color: var(--color-text-2);
+  text-align: center;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .dress-code-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .dress-code-section:nth-child(2),
+  .dress-code-section:nth-child(4) {
+    flex-direction: column;
+  }
+
+  /* Reset text alignment on mobile */
+  .dress-code-section:nth-child(2) .dress-code-text,
+  .dress-code-section:nth-child(4) .dress-code-text {
+    text-align: center;
+  }
+}
+
+.landscape-section {
+  justify-content: center;
+}
+
+.landscape-image {
+  width: 250px;
+  aspect-ratio: 4/3;
+}
+
+/* Men's section text alignment (first dress code section) */
+.dress-code-section:nth-child(6) .dress-code-text {
+  text-align: right;
+}
+
+/* Women's section text alignment (third dress code section) */
+.dress-code-section:nth-child(4) .dress-code-text {
+  text-align: left;
 }

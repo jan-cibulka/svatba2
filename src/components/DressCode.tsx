@@ -27,6 +27,33 @@ const DressCode: FC = () => {
           />
         ))}
       </div>
+
+      <div className="dress-code-section">
+        <div className="dress-code-text">
+          <h2>Men:</h2>
+          <p>Suits, jackets, shirts.</p>
+          <p>Grey, blue colours are allowed too!</p>
+        </div>
+        <div className="dress-code-image men-image" />
+      </div>
+
+      <div className="dress-code-section landscape-section">
+        <div className="dress-code-image landscape-image" />
+      </div>
+
+      <div className="dress-code-section">
+        <div className="dress-code-image women-image" />
+        <div className="dress-code-text">
+          <h2>Women:</h2>
+          <p>Cocktail dresses or suits.</p>
+          <p>Silver is possible too!</p>
+        </div>
+      </div>
+
+      <p className="dress-code-note">
+        Also we recommend to wear comfortable shoes because the wedding will be
+        outdoors.
+      </p>
     </div>
   );
 };
