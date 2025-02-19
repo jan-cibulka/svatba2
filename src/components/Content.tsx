@@ -7,15 +7,15 @@ import Schedule from "./Schedule";
 const Content: FC = () => {
   return (
     <>
-      <div className="content-wrapper">
+      <div className="content-wrapper" id="uvod">
         <div className="background"></div>
         <Intro />
       </div>
-      <div className="content-wrapper dark">
+      <div className="content-wrapper dark" id="program">
         <div className="background"></div>
         <Schedule />
       </div>
-      <div className="content-wrapper">
+      <div className="content-wrapper" id="misto">
         <div className="background"></div>
         <Map />
       </div>

@@ -4,6 +4,7 @@
   align-items: center;
   width: 100%;
   position: relative;
+  scroll-margin-top: 50px; /* This matches the navbar height */
 }
 
 .section-wrapper {

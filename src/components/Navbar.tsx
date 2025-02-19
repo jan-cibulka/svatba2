@@ -1,12 +1,24 @@
 import { FC } from "react";
 
 import "./Navbar.css";
+
 const Navbar: FC = () => {
   return (
     <nav>
-      {/* <div>
-        <span>Barca</span> & <span>Zdenda</span>
-      </div> */}
+      <div className="nav-logo">
+        {/* Placeholder for logo - replace with actual SVG later */}
+      </div>
+      <div className="nav-links">
+        <a href="#uvod" className="nav-link">
+          Úvod
+        </a>
+        <a href="#program" className="nav-link">
+          Program
+        </a>
+        <a href="#misto" className="nav-link">
+          Místo
+        </a>
+      </div>
     </nav>
   );
 };
