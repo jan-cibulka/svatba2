@@ -4,6 +4,8 @@ import "./Content.css";
 import Intro from "./Intro";
 import Map from "./Map";
 import Schedule from "./Schedule";
+import DressCode from "./DressCode";
+
 const Content: FC = () => {
   return (
     <>
@@ -18,6 +20,10 @@ const Content: FC = () => {
       <div className="content-wrapper" id="misto">
         <div className="background"></div>
         <Map />
+      </div>
+      <div className="content-wrapper dark" id="dresscode">
+        <div className="background"></div>
+        <DressCode />
       </div>
     </>
   );

@@ -1,0 +1,27 @@
+.color-palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 24px;
+  padding: 0 16px;
+}
+
+.color-swatch {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  position: relative;
+}
+.color-swatch:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .color-swatch {
+    width: 60px;
+    height: 60px;
+  }
+}

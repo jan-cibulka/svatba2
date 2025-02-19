@@ -17,6 +17,7 @@
   margin: 20px 0;
   z-index: 1;
   width: 100%;
+  animation: fadeIn 0.8s ease-out;
 }
 
 .background {
@@ -35,4 +36,29 @@
 
 .dark.content-wrapper {
   background-color: var(--color-background-2);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.title {
+  background: linear-gradient(45deg, var(--color-text-1), var(--color-text-2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: all 0.3s ease;
+}
+
+.title:hover {
+  background: linear-gradient(45deg, var(--color-text-2), var(--color-text-1));
+  -webkit-background-clip: text;
+  background-clip: text;
 }
