@@ -83,13 +83,7 @@
 
 @media (max-width: 768px) {
   .dress-code-section {
-    flex-direction: column;
     text-align: center;
-  }
-
-  .dress-code-section:nth-child(2),
-  .dress-code-section:nth-child(4) {
-    flex-direction: column;
   }
 
   /* Reset text alignment on mobile */

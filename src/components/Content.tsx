@@ -5,6 +5,7 @@ import Intro from "./Intro";
 import Map from "./Map";
 import Schedule from "./Schedule";
 import DressCode from "./DressCode";
+import Greetings from "./Greetings";
 
 const Content: FC = () => {
   return (
@@ -24,6 +25,10 @@ const Content: FC = () => {
       <div className="content-wrapper dark" id="dresscode">
         <div className="background"></div>
         <DressCode />
+      </div>
+      <div className="content-wrapper" id="greetings">
+        <div className="background"></div>
+        <Greetings />
       </div>
     </>
   );

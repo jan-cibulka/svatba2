@@ -36,7 +36,10 @@ const Navbar: FC = () => {
           Místo
         </a>
         <a href="#dresscode" className="nav-link">
-          Dress code
+          Dress&nbsp;code
+        </a>
+        <a href="#greetings" className="nav-link">
+          Formulář
         </a>
       </div>
     </nav>

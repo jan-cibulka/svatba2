@@ -13,10 +13,7 @@ const DressCode: FC = () => {
   return (
     <div className="section-wrapper">
       <div className="title">Dress code</div>
-      <p>
-        We would be very happy if your outfit is in the colours of the wedding
-        theme.
-      </p>
+      <p>Budeme moc rádi, když sladíte své oblečení s barvami svatby.</p>
       <div className="color-palette">
         {colors.map((color, index) => (
           <div
@@ -30,9 +27,9 @@ const DressCode: FC = () => {
 
       <div className="dress-code-section">
         <div className="dress-code-text">
-          <h2>Men:</h2>
-          <p>Suits, jackets, shirts.</p>
-          <p>Grey, blue colours are allowed too!</p>
+          <h2>Muži:</h2>
+          <p>Obleky, saka, košile.</p>
+          <p>Šedá a modrá jsou také možné!</p>
         </div>
         <div className="dress-code-image men-image" />
       </div>
@@ -44,15 +41,14 @@ const DressCode: FC = () => {
       <div className="dress-code-section">
         <div className="dress-code-image women-image" />
         <div className="dress-code-text">
-          <h2>Women:</h2>
-          <p>Cocktail dresses or suits.</p>
-          <p>Silver is possible too!</p>
+          <h2>Ženy:</h2>
+          <p>Koktejlové šaty nebo kostýmky.</p>
+          <p>Stříbrná je také možná!</p>
         </div>
       </div>
 
       <p className="dress-code-note">
-        Also we recommend to wear comfortable shoes because the wedding will be
-        outdoors.
+        Také doporučujeme pohodlnou obuv, protože svatba bude venku.
       </p>
     </div>
   );
