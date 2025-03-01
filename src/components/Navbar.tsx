@@ -1,8 +1,10 @@
-import { FC, useEffect } from "react";
+import { FC, useEffect, useState } from "react";
 
 import "./Navbar.css";
 
 const Navbar: FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   useEffect(() => {
     const updateScrollProgress = () => {
       const winScroll = document.documentElement.scrollTop;
@@ -25,20 +27,48 @@ const Navbar: FC = () => {
       <div className="nav-logo">
         {/* Placeholder for logo - replace with actual SVG later */}
       </div>
-      <div className="nav-links">
-        <a href="#uvod" className="nav-link">
+      <button
+        className={`hamburger ${isMenuOpen ? "open" : ""}`}
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div className={`nav-links ${isMenuOpen ? "open" : ""}`}>
+        <a
+          href="#uvod"
+          className="nav-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
           Úvod
         </a>
-        <a href="#program" className="nav-link">
+        <a
+          href="#program"
+          className="nav-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
           Program
         </a>
-        <a href="#misto" className="nav-link">
+        <a
+          href="#misto"
+          className="nav-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
           Místo
         </a>
-        <a href="#dresscode" className="nav-link">
+        <a
+          href="#dresscode"
+          className="nav-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
           Dress&nbsp;code
         </a>
-        <a href="#greetings" className="nav-link">
+        <a
+          href="#greetings"
+          className="nav-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
           Formulář
         </a>
       </div>
