@@ -21,7 +21,7 @@
 .bubble-title {
   font-size: var(--size-text-1);
   align-self: center;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .bubbles-wrapper {
