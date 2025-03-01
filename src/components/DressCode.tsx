@@ -30,6 +30,7 @@ const DressCode: FC = () => {
           <h2>Muži:</h2>
           <p>Obleky, saka, košile.</p>
           <p>Šedá a modrá jsou také možné!</p>
+          <div className="arrow-left"></div>
         </div>
         <div className="dress-code-image men-image" />
       </div>
@@ -44,6 +45,7 @@ const DressCode: FC = () => {
           <h2>Ženy:</h2>
           <p>Koktejlové šaty nebo kostýmky.</p>
           <p>Stříbrná je také možná!</p>
+          <div className="arrow-right"></div>
         </div>
       </div>
 
