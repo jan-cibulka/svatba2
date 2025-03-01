@@ -1,0 +1,7 @@
+.map-wrapper {
+  border-radius: 30px;
+  border: var(--size-divider) solid var(--color-divider-1);
+  width: 100%;
+  overflow: hidden;
+  height: 454px;
+}

@@ -36,10 +36,6 @@
   align-items: center;
 }
 
-.title {
-  font-size: var(--size-text-3);
-}
-
 .text {
   display: flex;
   flex-direction: column;
@@ -50,4 +46,21 @@
 .text-1,
 .text-2 {
   font-size: var(--size-text-2);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  border-top-left-radius: 30vw;
+  border-top-right-radius: 30vw;
+  padding: 0 5%;
+}
+
+@media screen and (min-width: 768px) {
+  img {
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+  }
 }

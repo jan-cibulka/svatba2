@@ -3,11 +3,6 @@ import "./App.css";
 import Content from "./components/Content";
 import Navbar from "./components/Navbar";
 
-//@ts-ignore
-import "@fontsource/beau-rivage";
-//@ts-ignore
-import "@fontsource/rufina";
-
 const colorText1 = "#2b2b2b";
 const colorText2 = "#4a4a4a";
 
@@ -24,6 +19,7 @@ const sizeText3 = "30px";
 const sizeDivider = "2px";
 
 const pageContentRatio = "60%";
+export const desktopThreshold = 768;
 
 const variablesStyle = `
 --color-text-1: ${colorText1};
@@ -37,6 +33,7 @@ const variablesStyle = `
 --size-text-3: ${sizeText3};
 --size-divider: ${sizeDivider};
 --page-content-ratio: ${pageContentRatio};
+--breakpoint-desktop: ${desktopThreshold}px;
 `;
 
 const root = document.documentElement;

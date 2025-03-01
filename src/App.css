@@ -6,7 +6,7 @@
   max-width: 100%;
   background: var(--color-background-1);
   color: var(--color-text-1);
-  font-family: "Rufina";
+  font-family: "EB Garamond", serif;
   position: relative;
 }
 
@@ -16,4 +16,8 @@
 
 * {
   box-sizing: border-box;
+}
+
+.title {
+  font-size: var(--size-text-3);
 }

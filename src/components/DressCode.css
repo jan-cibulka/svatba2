@@ -1,0 +1,149 @@
+.color-palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 40px;
+  padding: 0 16px;
+}
+
+.color-swatch {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  position: relative;
+}
+.color-swatch:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .color-swatch {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.dress-code-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+/* First section shouldn't have negative margin */
+.dress-code-section:first-of-type {
+  margin-top: 0;
+}
+
+.dress-code-text {
+  flex: 0 1 300px;
+  padding-top: 12px;
+  margin-top: -20px;
+  max-width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dress-code-text h2 {
+  font-size: var(--size-text-1);
+  color: var(--color-text-1);
+  margin-bottom: 4px;
+}
+
+.dress-code-text p {
+  font-size: var(--size-text-2);
+  color: var(--color-text-2);
+  margin: 2px 0;
+}
+
+.dress-code-image {
+  width: 165px;
+  aspect-ratio: 436/534;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+}
+
+.dress-code-note {
+  margin-top: 48px;
+  font-size: var(--size-text-2);
+  color: var(--color-text-2);
+  text-align: center;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .dress-code-section {
+    text-align: center;
+  }
+
+  /* Reset text alignment on mobile */
+  .dress-code-section:nth-child(2) .dress-code-text,
+  .dress-code-section:nth-child(4) .dress-code-text {
+    text-align: center;
+  }
+}
+
+.landscape-section {
+  justify-content: center;
+}
+
+.landscape-image {
+  width: 250px;
+  aspect-ratio: 4/3;
+}
+
+/* Men's section text alignment (first dress code section) */
+.dress-code-section:nth-child(6) .dress-code-text {
+  text-align: right;
+}
+
+/* Women's section text alignment (third dress code section) */
+.dress-code-section:nth-child(4) .dress-code-text {
+  text-align: left;
+}
+
+/* Rotate men's image clockwise */
+.dress-code-section:nth-child(4) .dress-code-image {
+  transform: rotate(10deg);
+}
+
+/* Rotate women's image counterclockwise */
+.dress-code-section:nth-child(6) .dress-code-image {
+  transform: rotate(-10deg);
+}
+
+.arrow-left {
+  width: 70px;
+  height: 55px;
+  margin-top: 8px;
+  margin-right: 10px;
+  background-image: url("/arrow_left.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-left: auto;
+  filter: var(--color-text-2); /* Match text color */
+}
+
+.arrow-right {
+  width: 70px;
+  height: 55px;
+  margin-top: 8px;
+  background-image: url("/arrow_right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: auto; /* Changed from margin-left to margin-right */
+  filter: var(--color-text-2);
+  margin-left: 10px;
+}
