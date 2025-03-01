@@ -3,11 +3,6 @@ import "./App.css";
 import Content from "./components/Content";
 import Navbar from "./components/Navbar";
 
-//@ts-ignore
-import "@fontsource/beau-rivage";
-//@ts-ignore
-import "@fontsource/rufina";
-
 const colorText1 = "#2b2b2b";
 const colorText2 = "#4a4a4a";
 
