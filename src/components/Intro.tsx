@@ -6,7 +6,7 @@ import { desktopThreshold } from "../App";
 const nonBreakingSpace = "\u00A0";
 const title = `MILÍ${nonBreakingSpace}PŘÁTELÉ A${nonBreakingSpace}RODINO`;
 const text1 =
-  "Toto léto se chystá velmi zvláštní a radostná událost – naše svatba.";
+  "Test push - léto se chystá velmi zvláštní a radostná událost – naše svatba.";
 
 const text2 =
   "Tento den si nedokážeme představit bez našich nejbližších. Proto vás s radostí zveme, abyste byli součástí tohoto krásného okamžiku a oslavili ho s námi.";
