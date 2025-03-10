@@ -4,7 +4,7 @@ import "./Greetings.css";
 const Greetings: FC = () => {
   return (
     <div className="section-wrapper">
-      <a href="#" className="form-link">
+      <a href="https://forms.gle/7giHGQveLMorRnso9" className="form-link">
         Vyplňte formulář
       </a>
       <div className="greetings-text">
