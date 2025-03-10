@@ -11,9 +11,9 @@ const text1 =
 const text2 =
   "Tento den si nedokážeme představit bez našich nejbližších. Proto vás s radostí zveme, abyste byli součástí tohoto krásného okamžiku a oslavili ho s námi.";
 const jmeno1 = "Barča";
-const jmeno2 = "Zdeněk";
-const date = "21.06.25";
-const place = "Křimice";
+const jmeno2 = "Zdenda";
+const date = "21. 6. 2025";
+const place = "Plzeň - Křimice";
 
 const Intro: FC = () => {
   const [isMobile, setIsMobile] = useState(

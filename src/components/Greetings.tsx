@@ -9,7 +9,7 @@ const Greetings: FC = () => {
       </a>
       <div className="greetings-text">
         <p>Těšíme se na vás,</p>
-        <p className="signature">Barča & Zdeněk</p>
+        <p className="signature">Barča & Zdenda</p>
         <div className="emoji"></div>
       </div>
     </div>

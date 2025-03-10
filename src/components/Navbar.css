@@ -27,7 +27,7 @@ nav {
 .nav-logo {
   height: 24px;
   width: 24px;
-  background-image: url("/heart.png");
+  background-image: url("/logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
