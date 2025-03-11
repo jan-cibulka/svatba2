@@ -2,6 +2,7 @@ import { FC, useEffect, useState } from "react";
 
 import "./Intro.css";
 import { desktopThreshold } from "../App";
+import Countdown from "./Countdown";
 
 const nonBreakingSpace = "\u00A0";
 const title = `MILÁ${nonBreakingSpace}RODINO A${nonBreakingSpace}PŘÁTELÉ`;
@@ -56,6 +57,7 @@ const Intro: FC = () => {
         <p className="text-1">{text1}</p>
         <p className="text-2">{text2}</p>
       </div>
+      <Countdown />
     </div>
   );
 };
