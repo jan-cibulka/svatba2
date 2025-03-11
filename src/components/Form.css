@@ -1,0 +1,59 @@
+.form-description {
+  text-align: center;
+  color: var(--color-text-2);
+  font-size: var(--size-text-2);
+  max-width: 600px;
+  margin: 0 auto 32px auto;
+}
+
+.form-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background: var(--color-text-1);
+  color: var(--color-background-1);
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: var(--size-text-1);
+  transition: all 0.2s ease;
+}
+
+.form-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #e6bcb0;
+}
+
+.greetings-text {
+  text-align: center;
+  color: var(--color-text-1);
+  margin-top: 48px;
+}
+
+.greetings-text p {
+  margin: 8px 0;
+  font-size: var(--size-text-3);
+}
+
+/* Add cursive font to greeting */
+.greetings-text p:first-child {
+  font-family: "Beau Rivage", cursive;
+}
+
+/* Remove cursive from signature */
+.signature {
+  font-family: "EB Garamond", serif;
+  margin-top: 16px !important;
+}
+
+.emoji {
+  width: 70px;
+  height: 70px;
+  aspect-ratio: 1;
+  margin-top: 20px !important;
+  background-image: url("/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}

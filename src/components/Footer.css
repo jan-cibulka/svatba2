@@ -1,0 +1,31 @@
+.greetings-text {
+  text-align: center;
+  color: var(--color-text-1);
+}
+
+.greetings-text p {
+  margin: 8px 0;
+  font-size: var(--size-text-3);
+}
+
+.greetings-text p:first-child {
+  font-family: "Beau Rivage", cursive;
+}
+
+.signature {
+  font-family: "EB Garamond", serif;
+  margin-top: 16px !important;
+}
+
+.emoji {
+  width: 70px;
+  height: 70px;
+  aspect-ratio: 1;
+  margin-top: 20px !important;
+  background-image: url("/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -5,7 +5,9 @@ import Intro from "./Intro";
 import Map from "./Map";
 import Schedule from "./Schedule";
 import DressCode from "./DressCode";
-import Greetings from "./Greetings";
+import Form from "./Form";
+import Gifts from "./Gifts";
+import Footer from "./Footer";
 
 const Content: FC = () => {
   return (
@@ -28,7 +30,15 @@ const Content: FC = () => {
       </div>
       <div className="content-wrapper" id="form">
         <div className="background"></div>
-        <Greetings />
+        <Form />
+      </div>
+      <div className="content-wrapper dark" id="gifts">
+        <div className="background"></div>
+        <Gifts />
+      </div>
+      <div className="content-wrapper" id="footer">
+        <div className="background"></div>
+        <Footer />
       </div>
     </>
   );
