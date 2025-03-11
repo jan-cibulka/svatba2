@@ -147,3 +147,12 @@
   filter: var(--color-text-2);
   margin-left: 10px;
 }
+
+.men-image {
+  background-image: url("/dresscode1.jpeg");
+  background-size: calc(100% - 20px); /* Subtract 2x padding */
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-color: white; /* To ensure the padding is visible */
+}

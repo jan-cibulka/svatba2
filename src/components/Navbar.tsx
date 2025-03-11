@@ -65,6 +65,13 @@ const Navbar: FC = () => {
           Dress&nbsp;code
         </a>
         <a
+          href="#gifts"
+          className="nav-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
+          Svatební&nbsp;dary
+        </a>
+        <a
           href="#form"
           className="nav-link"
           onClick={() => setIsMenuOpen(false)}
