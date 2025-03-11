@@ -6,7 +6,6 @@ const Map: FC = () => {
   return (
     <div className="section-wrapper">
       <div className="title">Informace</div>
-
       <div className="info-section">
         <h2>Obřad</h2>
         <p>
@@ -20,7 +19,6 @@ const Map: FC = () => {
           novomanželi v zámeckém parku.
         </p>
       </div>
-
       <div className="info-section">
         <h2>Svatební Hostina</h2>
         <p>
@@ -33,17 +31,16 @@ const Map: FC = () => {
           kapely Wocaties band.
         </p>
       </div>
-
       <div className="map-wrapper">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2077.229199696126!2d13.31328149210469!3d49.75813441150119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470af3b00b9b32c5%3A0xf21128a3c14f272d!2sRestaurace%20Sokolovna%20K%C5%99imice!5e0!3m2!1scs!2scz!4v1739305871885!5m2!1scs!2scz"
-          width="100%"
-          height="100%"
-          style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        ></iframe>
+        <div style={{ position: "relative", width: "100%", height: "500px" }}>
+          <iframe
+            src="https://www.google.com/maps/d/embed?mid=1rKcIzL5RvG2ylg4MHNUt60AR9Ab3evc&ehbc=2E312F"
+            width="100%"
+            height="100%"
+            style={{ border: "0" }}
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
 
       <div className="info-section">
