@@ -37,8 +37,9 @@
 }
 
 .emoji {
-  width: 24px;
-  height: 24px;
+  width: 70px;
+  height: 70px;
+  aspect-ratio: 1;
   margin-top: 20px !important;
   background-image: url("/logo.svg");
   background-size: contain;
