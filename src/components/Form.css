@@ -26,7 +26,6 @@
 .greetings-text {
   text-align: center;
   color: var(--color-text-1);
-  margin-top: 48px;
 }
 
 .greetings-text p {
