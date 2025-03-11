@@ -64,3 +64,11 @@ img {
     border-top-right-radius: 20%;
   }
 }
+
+.text p {
+  text-align: center;
+  margin: 16px 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}

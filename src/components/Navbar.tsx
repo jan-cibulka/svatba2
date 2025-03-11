@@ -37,35 +37,35 @@ const Navbar: FC = () => {
       </button>
       <div className={`nav-links ${isMenuOpen ? "open" : ""}`}>
         <a
-          href="#uvod"
+          href="#intro"
           className="nav-link"
           onClick={() => setIsMenuOpen(false)}
         >
           Úvod
         </a>
         <a
-          href="#program"
+          href="#info"
+          className="nav-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
+          Informace
+        </a>
+        <a
+          href="#schedule"
           className="nav-link"
           onClick={() => setIsMenuOpen(false)}
         >
           Harmonogram
         </a>
         <a
-          href="#misto"
-          className="nav-link"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Místo
-        </a>
-        <a
-          href="#dresscode"
+          href="#dress-code"
           className="nav-link"
           onClick={() => setIsMenuOpen(false)}
         >
           Dress&nbsp;code
         </a>
         <a
-          href="#greetings"
+          href="#form"
           className="nav-link"
           onClick={() => setIsMenuOpen(false)}
         >
