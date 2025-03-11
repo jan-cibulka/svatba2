@@ -48,7 +48,7 @@ const Navbar: FC = () => {
           className="nav-link"
           onClick={() => setIsMenuOpen(false)}
         >
-          Program
+          Harmonogram
         </a>
         <a
           href="#misto"
