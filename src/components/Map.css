@@ -22,6 +22,6 @@
   border: var(--size-divider) solid var(--color-divider-1);
   width: 100%;
   overflow: hidden;
-  height: 454px;
+  height: 100%;
   margin-top: 32px;
 }

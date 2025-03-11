@@ -30,10 +30,6 @@ const Content: FC = () => {
         <div className="background"></div>
         <Greetings />
       </div>
-      <div className="content-wrapper dark" id="info">
-        <div className="background"></div>
-        <Map />
-      </div>
     </>
   );
 };

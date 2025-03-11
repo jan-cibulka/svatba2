@@ -13,7 +13,6 @@ const text2 =
 const jmeno1 = "Barča";
 const jmeno2 = "Zdenda";
 const date = "21. 6. 2025 ve 12:00";
-const place = "Plzeň - Křimice";
 
 const Intro: FC = () => {
   const [isMobile, setIsMobile] = useState(
@@ -44,8 +43,12 @@ const Intro: FC = () => {
           <div className="item-bottom">datum</div>
         </div>
         <div className="container">
-          <div className="item-top">{place}</div>
-          <div className="item-bottom">místo</div>
+          <div className="item-top">Zámecký park Křimice</div>
+          <div className="item-bottom">obřad</div>
+        </div>
+        <div className="container">
+          <div className="item-top">Sokolovna Křimice</div>
+          <div className="item-bottom">svatební hostina</div>
         </div>
       </div>
       <div className="text">
