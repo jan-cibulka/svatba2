@@ -11,10 +11,10 @@ const Gifts: FC = () => {
       </p>
       <div className="bank-info">
         <div className="account-details">
-          <p>Číslo účtu: XXXX-XXXXXXXXXX/XXXX</p>
+          <p>Číslo účtu: 1329637036/3030</p>
         </div>
         <div className="qr-code">
-          <img src="/qr-code.png" alt="QR kód pro platbu" />
+          <img src="/qr_code.png" alt="QR kód pro svatební dar." />
         </div>
       </div>
     </div>
