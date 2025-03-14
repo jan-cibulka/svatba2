@@ -11,11 +11,10 @@ const Map: FC = () => {
         <p>
           Obřad se bude konat dne 21. 6. 2025 v Zámeckém parku v Křimicích ve
           12:00 hodin. Vchod do zámeckého parku se nachází z ulice Křimické
-          náměstí. (je vyznačen na mapě …). Vchod bude také označen směrovkou
+          náměstí (vyznačeno na mapě: Zámek Křimice - vchod). Vchod bude také označen směrovkou
           „svatba“. Příjezd hostů od 11:00 do 11:30. Parkování je možné na
-          Zámeckém náměstí a na Křimickém náměstí. Alternativně lze parkovat
-          před Sokolovnou Křimice na ulici Plzeňská. – udělat custom body v
-          mapě. Po obřadu budou následovat gratulace a focení svatebčanů s
+          Zámeckém náměstí (vyznačeno v mapě: Parkoviště 1) a na Křimickém náměstí (vyznačeno v mapě: Parkoviště 2). Alternativně lze parkovat
+          před Sokolovnou Křimice na ulici Plzeňská (vyznačeno v mapě: Parkoviště 3 a Parkoviště 4). Po obřadu budou následovat gratulace a focení svatebčanů s
           novomanželi v zámeckém parku.
         </p>
       </div>
@@ -23,10 +22,10 @@ const Map: FC = () => {
         <h2>Svatební Hostina</h2>
         <p>
           Po focení se přesuneme na svatební hostinu do Sokolovny Křimice (cca
-          500 metrů). Zde bude následovat slavnostní oběd a nadcházející program
-          (viz harmonogram). Oběd bude servírovaný, v průběhu celého dne se
+          500 metrů - v mapě: Sokolovna Křimice). Zde bude následovat slavnostní oběd a nadcházející program
+          (viz <a href="#schedule">Harmonogram</a>). Oběd bude servírovaný, v průběhu celého dne se
           můžete těšit na bohatý raut, sladký bar, sushi bar a klasický
-          alkoholický/nealkoholický bar 😉. Mimo jiné se můžete těšit na
+          alkoholický/nealkoholický bar ;). Mimo jiné se můžete těšit na
           tombolu, svatební hry, vodní dýmku a skvělou hudbu pod taktovkou
           kapely Wocaties band.
         </p>
