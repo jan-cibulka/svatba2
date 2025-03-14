@@ -15,7 +15,7 @@ const Map: FC = () => {
           „svatba“. Příjezd hostů od 11:00 do 11:30. Parkování je možné na
           Zámeckém náměstí (vyznačeno v mapě: Parkoviště 1) a na Křimickém náměstí (vyznačeno v mapě: Parkoviště 2). Alternativně lze parkovat
           před Sokolovnou Křimice na ulici Plzeňská (vyznačeno v mapě: Parkoviště 3 a Parkoviště 4). Po obřadu budou následovat gratulace a focení svatebčanů s
-          novomanželi v zámeckém parku.
+          novomanželi v Zámeckém parku.
         </p>
       </div>
       <div className="info-section">
