@@ -34,7 +34,7 @@ const Map: FC = () => {
       <div className="map-wrapper">
         <div style={{ position: "relative", width: "100%", height: "500px" }}>
           <iframe
-            src="https://www.google.com/maps/d/embed?mid=1rKcIzL5RvG2ylg4MHNUt60AR9Ab3evc&ehbc=2E312F"
+            src="https://www.google.com/maps/d/u/1/edit?mid=1OnO0_3h96D0pJ6D8H3g5nQXePSMzHHo&usp=sharing"
             width="100%"
             height="100%"
             style={{ border: "0" }}
