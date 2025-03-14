@@ -10,7 +10,7 @@ const Map: FC = () => {
         <h2>Obřad</h2>
         <p>
           Obřad se bude konat dne 21. 6. 2025 v Zámeckém parku v Křimicích ve
-          12:00 hodin. Vchod do zámeckého parku se nachází z ulice Křimické
+          12:00 hodin. Vchod do Zámeckého parku se nachází z ulice Křimické
           náměstí (vyznačeno na mapě: Zámek Křimice - vchod). Vchod bude také označen směrovkou
           „svatba“. Příjezd hostů od 11:00 do 11:30. Parkování je možné na
           Zámeckém náměstí (vyznačeno v mapě: Parkoviště 1) a na Křimickém náměstí (vyznačeno v mapě: Parkoviště 2). Alternativně lze parkovat
