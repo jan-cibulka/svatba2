@@ -3,7 +3,7 @@
   color: var(--color-text-2);
   font-size: var(--size-text-2);
   max-width: 600px;
-  margin: 0 auto 32px auto;
+  margin: 0 auto 12px auto;
 }
 
 .form-link {

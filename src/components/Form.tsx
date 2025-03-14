@@ -7,7 +7,7 @@ const Form: FC = () => {
       <div className="title">Formulář</div>
       <p className="form-description">
       Abychom mohli svatbu co nejlépe naplánovat, prosíme vás o vyplnění krátkého
-      dotazníku.
+      formuláře.
       </p>
       <a
         href="https://forms.gle/7giHGQveLMorRnso9"
@@ -15,7 +15,7 @@ const Form: FC = () => {
         rel="noopener noreferrer"
         className="form-link"
       >
-        Vyplňte formulář
+        Vyplnit formulář
       </a>
     </div>
   );
