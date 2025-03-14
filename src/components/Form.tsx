@@ -6,8 +6,8 @@ const Form: FC = () => {
     <div className="section-wrapper">
       <div className="title">Formulář</div>
       <p className="form-description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+      Abychom mohli svatbu co nejlépe naplánovat, prosíme vás o vyplnění krátkého
+      dotazníku.
       </p>
       <a
         href="https://forms.gle/7giHGQveLMorRnso9"
