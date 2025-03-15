@@ -158,6 +158,7 @@
   background-image: url("/dresscode2.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain; /* Ensures the entire image is visible while maintaining its aspect ratio */
   padding: 10px;
   background-color: white; /* To ensure the padding is visible */
 }
