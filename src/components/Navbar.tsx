@@ -44,18 +44,18 @@ const Navbar: FC = () => {
           Úvod
         </a>
         <a
+          href="#info"
+          className="nav-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
+          Informace
+        </a>
+        <a
           href="#schedule"
           className="nav-link"
           onClick={() => setIsMenuOpen(false)}
         >
           Harmonogram
-        </a>
-        <a
-          href="#location"
-          className="nav-link"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Místo
         </a>
         <a
           href="#dress-code"
@@ -70,6 +70,13 @@ const Navbar: FC = () => {
           onClick={() => setIsMenuOpen(false)}
         >
           Formulář
+        </a>
+        <a
+          href="#gifts"
+          className="nav-link"
+          onClick={() => setIsMenuOpen(false)}
+        >
+          Svatební&nbsp;dary
         </a>
       </div>
     </nav>

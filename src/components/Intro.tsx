@@ -2,18 +2,18 @@ import { FC, useEffect, useState } from "react";
 
 import "./Intro.css";
 import { desktopThreshold } from "../App";
+import Countdown from "./Countdown";
 
 const nonBreakingSpace = "\u00A0";
-const title = `MILÍ${nonBreakingSpace}PŘÁTELÉ A${nonBreakingSpace}RODINO`;
+const title = `MILÁ${nonBreakingSpace}RODINO A${nonBreakingSpace}PŘÁTELÉ`;
 const text1 =
-  "Toto léto se chystá velmi zvláštní a radostná událost – naše svatba.";
+  "Vítejte na našich svatebních stránkách. Náš svatební den se blíží. Tento den si bez vás nedokážeme představit, proto vás s radostí zveme, abyste byli jeho součástí a oslavili ho s námi.";
 
 const text2 =
-  "Tento den si nedokážeme představit bez našich nejbližších. Proto vás s radostí zveme, abyste byli součástí tohoto krásného okamžiku a oslavili ho s námi.";
+  "Těšíme se na vaší účast a aby vše klapalo podle plánu, připravili jsme pro vás pár informací a krátký dotazník. Brzy se uvidíme.";
 const jmeno1 = "Barča";
-const jmeno2 = "Zdeněk";
-const date = "21.06.25";
-const place = "Křimice";
+const jmeno2 = "Zdenda";
+const date = "21. 6. 2025 ve 12:00";
 
 const Intro: FC = () => {
   const [isMobile, setIsMobile] = useState(
@@ -44,8 +44,12 @@ const Intro: FC = () => {
           <div className="item-bottom">datum</div>
         </div>
         <div className="container">
-          <div className="item-top">{place}</div>
-          <div className="item-bottom">místo</div>
+          <div className="item-top">Zámecký park Křimice</div>
+          <div className="item-bottom">obřad</div>
+        </div>
+        <div className="container">
+          <div className="item-top">Sokolovna Křimice</div>
+          <div className="item-bottom">svatební hostina</div>
         </div>
       </div>
       <div className="text">
@@ -53,6 +57,7 @@ const Intro: FC = () => {
         <p className="text-1">{text1}</p>
         <p className="text-2">{text2}</p>
       </div>
+      <Countdown />
     </div>
   );
 };

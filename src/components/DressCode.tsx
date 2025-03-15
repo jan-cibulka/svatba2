@@ -3,11 +3,11 @@ import "./DressCode.css";
 
 const DressCode: FC = () => {
   const colors = [
-    { hex: "#E6D7C3", name: "Beige" },
-    { hex: "#E6BCB0", name: "Dusty Pink" },
-    { hex: "#C3B1A5", name: "Taupe" },
-    { hex: "#D4C1B8", name: "Light Mauve" },
-    { hex: "#B7A99A", name: "Warm Gray" },
+    { hex: "#093327", name: "Tmavá zelená" },
+    { hex: "#105844", name: "Zelená" },
+    { hex: "#c89881", name: "Tmavá champagne" },
+    { hex: "#fdcfb8", name: "Světlá broskvová" },
+    { hex: "#fcdbe2", name: "Bledě růžově levandulová" },
   ];
 
   return (
@@ -37,15 +37,11 @@ const DressCode: FC = () => {
 
       <div className="dress-code-section landscape-section">
         <div className="dress-code-image landscape-image" />
-      </div>
-
-      <div className="dress-code-section">
-        <div className="dress-code-image women-image" />
         <div className="dress-code-text">
+          <div className="arrow-right"></div>
           <h2>Ženy:</h2>
           <p>Koktejlové šaty nebo kostýmky.</p>
           <p>Stříbrná je také možná!</p>
-          <div className="arrow-right"></div>
         </div>
       </div>
 

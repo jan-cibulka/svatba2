@@ -38,6 +38,7 @@ const variablesStyle = `
 
 const root = document.documentElement;
 root.style.cssText = variablesStyle;
+
 function App() {
   return (
     <div className="page-wrapper">

@@ -1,20 +1,3 @@
-.form-link {
-  display: inline-block;
-  padding: 12px 24px;
-  background: var(--color-text-1);
-  color: var(--color-background-1);
-  text-decoration: none;
-  border-radius: 8px;
-  font-size: var(--size-text-1);
-  transition: all 0.2s ease;
-}
-
-.form-link:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  color: #e6bcb0;
-}
-
 .greetings-text {
   text-align: center;
   color: var(--color-text-1);
@@ -25,12 +8,10 @@
   font-size: var(--size-text-3);
 }
 
-/* Add cursive font to greeting */
 .greetings-text p:first-child {
   font-family: "Beau Rivage", cursive;
 }
 
-/* Remove cursive from signature */
 .signature {
   font-family: "EB Garamond", serif;
   margin-top: 16px !important;
