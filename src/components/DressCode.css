@@ -153,8 +153,9 @@
 }
 
 .landscape-image {
-  background-image: url("/dresscode2.jpg");
-  background-size: calc(100% - 20px); /* Subtract 2x padding */
+  width: 250px;
+  aspect-ratio: 4/3;
+  background-image: url("/dresscode2.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   padding: 10px;
