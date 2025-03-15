@@ -97,11 +97,6 @@
   justify-content: center;
 }
 
-.landscape-image {
-  width: 250px;
-  aspect-ratio: 4/3;
-}
-
 /* Men's section text alignment (first dress code section) */
 .dress-code-section:nth-child(6) .dress-code-text {
   text-align: right;
@@ -150,6 +145,15 @@
 
 .men-image {
   background-image: url("/dresscode1.jpeg");
+  background-size: calc(100% - 20px); /* Subtract 2x padding */
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-color: white; /* To ensure the padding is visible */
+}
+
+.landscape-image {
+  background-image: url("/dresscode2.jpg");
   background-size: calc(100% - 20px); /* Subtract 2x padding */
   background-position: center;
   background-repeat: no-repeat;
