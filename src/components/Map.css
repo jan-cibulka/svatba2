@@ -25,3 +25,20 @@
   height: 100%;
   margin-top: 32px;
 }
+
+/* Add this to style links within the info sections */
+.info-section a {
+  color: var(--color-text-1);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.info-section a:hover {
+  color: var(--color-text-2);
+  text-decoration: underline;
+}
+
+/* Remove visited color */
+.info-section a:visited {
+  color: var(--color-text-1);
+}
