@@ -7,7 +7,7 @@ const DressCode: FC = () => {
     { hex: "#105844", name: "Zelená" },
     { hex: "#c89881", name: "Tmavá champagne" },
     { hex: "#fdcfb8", name: "Světlá broskvová" },
-    { hex: "#fcdbe2", name: "Bledě růžově levandulová" }
+    { hex: "#fcdbe2", name: "Bledě růžově levandulová" },
   ];
 
   return (
@@ -37,15 +37,11 @@ const DressCode: FC = () => {
 
       <div className="dress-code-section landscape-section">
         <div className="dress-code-image landscape-image" />
-      </div>
-
-      <div className="dress-code-section">
-        <div className="dress-code-image women-image" />
         <div className="dress-code-text">
+          <div className="arrow-right"></div>
           <h2>Ženy:</h2>
           <p>Koktejlové šaty nebo kostýmky.</p>
           <p>Stříbrná je také možná!</p>
-          <div className="arrow-right"></div>
         </div>
       </div>
 

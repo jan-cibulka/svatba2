@@ -44,7 +44,6 @@
 }
 
 .dress-code-text {
-  flex: 0 1 300px;
   padding-top: 12px;
   margin-top: -20px;
   max-width: 170px;
@@ -94,7 +93,8 @@
 }
 
 .landscape-section {
-  justify-content: center;
+  flex-direction: column;
+  text-align: left;
 }
 
 /* Men's section text alignment (first dress code section) */
@@ -109,12 +109,7 @@
 
 /* Rotate men's image clockwise */
 .dress-code-section:nth-child(4) .dress-code-image {
-  transform: rotate(10deg);
-}
-
-/* Rotate women's image counterclockwise */
-.dress-code-section:nth-child(6) .dress-code-image {
-  transform: rotate(-10deg);
+  transform: rotate(6deg);
 }
 
 .arrow-left {
@@ -133,14 +128,16 @@
 .arrow-right {
   width: 70px;
   height: 55px;
-  margin-top: 8px;
-  background-image: url("/arrow_right.svg");
+  background-image: url(/arrow_right.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  margin-right: auto; /* Changed from margin-left to margin-right */
+  margin-right: auto;
   filter: var(--color-text-2);
-  margin-left: 10px;
+  margin-left: -80px;
+  transform: rotate(77deg);
+  margin-top: 29px;
+  position: absolute;
 }
 
 .men-image {
@@ -148,17 +145,16 @@
   background-size: calc(100% - 20px); /* Subtract 2x padding */
   background-position: center;
   background-repeat: no-repeat;
-  padding: 10px;
   background-color: white; /* To ensure the padding is visible */
 }
 
 .landscape-image {
   width: 250px;
-  aspect-ratio: 4/3;
+  aspect-ratio: 1.57;
   background-image: url("/dresscode2.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; /* Ensures the entire image is visible while maintaining its aspect ratio */
-  padding: 10px;
+  background-size: calc(100% - 20px);
   background-color: white; /* To ensure the padding is visible */
+  transform: rotate(-6deg); /* Add rotation to match the previous layout */
 }

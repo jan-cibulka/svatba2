@@ -8,9 +8,13 @@ interface TimeLeft {
   seconds: number;
 }
 
-const calculateTimeLeft = (): TimeLeft => {
+const calculateTimeLeft = (): TimeLeft | null => {
   const weddingDate = new Date("2025-06-21T12:00:00");
   const difference = weddingDate.getTime() - new Date().getTime();
+
+  if (difference <= 0) {
+    return null; // Return null if the wedding date has passed
+  }
 
   return {
     days: Math.floor(difference / (1000 * 60 * 60 * 24)),
@@ -21,7 +25,9 @@ const calculateTimeLeft = (): TimeLeft => {
 };
 
 const Countdown: FC = () => {
-  const [timeLeft, setTimeLeft] = useState<TimeLeft>(calculateTimeLeft());
+  const [timeLeft, setTimeLeft] = useState<TimeLeft | null>(
+    calculateTimeLeft()
+  );
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -29,6 +35,10 @@ const Countdown: FC = () => {
     }, 1000);
     return () => clearInterval(timer);
   }, []);
+
+  if (!timeLeft) {
+    return null; // Don't render anything if time is up
+  }
 
   return (
     <div className="countdown">
