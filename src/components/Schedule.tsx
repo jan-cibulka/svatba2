@@ -8,7 +8,7 @@ const Schedule: FC = () => {
       <div className="title">Harmonogram</div>
       <div className="bubbles-wrapper">
         <div className="bubble left">
-          <div className="bubble-title">Ráno</div>
+          <div className="bubble-title">Dopoledne</div>
           <div className="item">11:00 - 11:30 - Příjezd hostů</div>
           <div className="item">12:00 - Obřad</div>
           <div className="item">12:45 - Focení svatebčanů s novomanželi</div>
