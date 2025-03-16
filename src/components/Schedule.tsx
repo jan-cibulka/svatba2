@@ -9,16 +9,14 @@ const Schedule: FC = () => {
       <div className="bubbles-wrapper">
         <div className="bubble left">
           <div className="bubble-title">Ráno</div>
-          <div className="item">10:00 - Přípravy nevěsty a ženicha</div>
-          <div className="item">11:00 - Setkání hostů</div>
+          <div className="item">11:00 - 11:30 - Příjezd hostů</div>
           <div className="item">12:00 - Obřad</div>
-          <div className="item">12:45 - Gratulace a přípitek</div>
+          <div className="item">12:45 - Focení svatebčanů s novomanželi</div>
         </div>
         <div className="divider" />
         <div className="bubble right">
           <div className="bubble-title">Odpoledne</div>
-          <div className="item">13:00 - Společné focení</div>
-          <div className="item">14:00 - Slavnostní oběd</div>
+          <div className="item">13:30 - Slavnostní oběd</div>
           <div className="item">15:30 - Krájení dortu</div>
           <div className="item">16:00 - Házení kytice a podvazku</div>
           <div className="item">16:30 - První tanec novomanželů</div>

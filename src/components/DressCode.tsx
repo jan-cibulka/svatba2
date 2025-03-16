@@ -13,7 +13,7 @@ const DressCode: FC = () => {
   return (
     <div className="section-wrapper">
       <div className="title">Dress code</div>
-      <p>Budeme moc rádi, když sladíte své oblečení s barvami svatby.</p>
+      <p>Budeme moc rádi, když sladíte své oblečení či doplňky (kravaty, motýlky) s barvami svatby.</p>
       <div className="color-palette">
         {colors.map((color, index) => (
           <div
@@ -29,7 +29,7 @@ const DressCode: FC = () => {
         <div className="dress-code-text">
           <h2>Muži:</h2>
           <p>Obleky, saka, košile.</p>
-          <p>Šedá a modrá jsou také možné!</p>
+          <p>v tmavých barvách.</p>
           <div className="arrow-left"></div>
         </div>
         <div className="dress-code-image men-image" />
@@ -40,8 +40,7 @@ const DressCode: FC = () => {
         <div className="dress-code-text">
           <div className="arrow-right"></div>
           <h2>Ženy:</h2>
-          <p>Koktejlové šaty nebo kostýmky.</p>
-          <p>Stříbrná je také možná!</p>
+          <p>Šaty nebo kostýmky.</p>
         </div>
       </div>
 

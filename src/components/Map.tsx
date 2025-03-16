@@ -42,7 +42,7 @@ const Map: FC = () => {
         </div>
       </div>
 
-      <div className="info-section">
+      <div className="info-section" style={{ marginTop: '15px', marginBottom: '15px' }}>
         <h2>Přenocování</h2>
         <p>
           Vzhledem k tomu, že většina naší rodiny a přátel jsou z Plzně nebo
