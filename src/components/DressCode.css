@@ -45,7 +45,7 @@
 
 .dress-code-text {
   padding-top: 12px;
-  margin-top: -20px;
+  margin-top: 0px;
   max-width: 170px;
   margin-left: auto;
   margin-right: auto;
@@ -136,7 +136,7 @@
   filter: var(--color-text-2);
   margin-left: -80px;
   transform: rotate(77deg);
-  margin-top: 29px;
+  margin-top: 6px;
   position: absolute;
 }
 
