@@ -13,7 +13,7 @@ const DressCode: FC = () => {
   return (
     <div className="section-wrapper">
       <div className="title">Dress code</div>
-      <p>Budeme moc rádi, když sladíte své oblečení či doplňky (kravaty, motýlky) s barvami svatby.</p>
+      <p style={{ textAlign: 'center' }}>Budeme moc rádi, když sladíte své oblečení či doplňky (kravaty, motýlky) s barvami svatby.</p>
       <div className="color-palette">
         {colors.map((color, index) => (
           <div
@@ -28,7 +28,7 @@ const DressCode: FC = () => {
       <div className="dress-code-section">
         <div className="dress-code-text">
           <h2>Muži:</h2>
-          <p>Obleky, saka, košile.</p>
+          <p>Obleky, saka, košile</p>
           <p>v tmavých barvách.</p>
           <div className="arrow-left"></div>
         </div>
