@@ -11,10 +11,10 @@ const Map: FC = () => {
         <p>
           Obřad se bude konat dne 21. 6. 2025 v Zámeckém parku v Křimicích ve
           12:00 hodin. Vchod do Zámeckého parku se nachází z ulice Křimické
-          náměstí (vyznačeno na mapě: Zámek Křimice - vchod). Vchod bude také označen směrovkou
-          „svatba“. Příjezd hostů od 11:00 do 11:30. Parkování je možné na
-          Zámeckém náměstí (vyznačeno v mapě: Parkoviště 1) a na Křimickém náměstí (vyznačeno v mapě: Parkoviště 2). Alternativně lze parkovat
-          před Sokolovnou Křimice na ulici Plzeňská (vyznačeno v mapě: Parkoviště 3 a Parkoviště 4). Po obřadu budou následovat gratulace a focení svatebčanů s
+          náměstí (vyznačeno na mapě: <a href="https://www.google.com/maps/dir//49.7579676,13.3060301">Zámek Křimice - vchod</a>). Vchod bude také označen směrovkou
+          „svatba“. <b>Příjezd hostů od 11:00 do 11:30.</b> Parkování je možné na
+          Zámeckém náměstí (vyznačeno v mapě: <a href="https://www.google.com/maps/dir//49.7581496,13.3095283">Parkoviště 1</a>) a na Křimickém náměstí (vyznačeno v mapě: <a href="https://www.google.com/maps/dir//49.7576815,13.3064222">Parkoviště 2</a>). Alternativně lze parkovat
+          před Sokolovnou Křimice na ulici Plzeňská (vyznačeno v mapě: <a href="https://www.google.com/maps/dir//49.7574056,13.3130854">Parkoviště 3</a> a <a href="https://www.google.com/maps/dir//49.7583185,13.3132885">Parkoviště 4</a>). Po obřadu budou následovat gratulace a focení svatebčanů s
           novomanželi v Zámeckém parku.
         </p>
       </div>
