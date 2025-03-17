@@ -11,18 +11,18 @@ const Map: FC = () => {
         <p>
           Obřad se bude konat dne 21. 6. 2025 v Zámeckém parku v Křimicích ve
           12:00 hodin. Vchod do Zámeckého parku se nachází z ulice Křimické
-          náměstí (vyznačeno na mapě: <a href="https://www.google.com/maps/dir//49.7579676,13.3060301">Zámek Křimice - vchod</a>). Vchod bude také označen směrovkou
+          náměstí (vyznačeno na mapě: <a href="https://www.google.com/maps/dir//49.7579676,13.3060301" target="_blank" rel="noopener noreferrer">Zámek Křimice - vchod</a>). Vchod bude také označen směrovkou
           „svatba“. <b>Příjezd hostů od 11:00 do 11:30.</b> Parkování je možné na
-          Zámeckém náměstí (vyznačeno v mapě: <a href="https://www.google.com/maps/dir//49.7581496,13.3095283">Parkoviště 1</a>) a na Křimickém náměstí (vyznačeno v mapě: <a href="https://www.google.com/maps/dir//49.7576815,13.3064222">Parkoviště 2</a>). Alternativně lze parkovat
-          před Sokolovnou Křimice na ulici Plzeňská (vyznačeno v mapě: <a href="https://www.google.com/maps/dir//49.7574056,13.3130854">Parkoviště 3</a> a <a href="https://www.google.com/maps/dir//49.7583185,13.3132885">Parkoviště 4</a>). Po obřadu budou následovat gratulace a focení svatebčanů s
+          Zámeckém náměstí (vyznačeno v mapě: <a href="https://www.google.com/maps/dir//49.7581496,13.3095283" target="_blank" rel="noopener noreferrer">Parkoviště 1</a>) a na Křimickém náměstí (vyznačeno v mapě: <a href="https://www.google.com/maps/dir//49.7576815,13.3064222" target="_blank" rel="noopener noreferrer">Parkoviště 2</a>). Alternativně lze parkovat
+          před Sokolovnou Křimice na ulici Plzeňská (vyznačeno v mapě: <a href="https://www.google.com/maps/dir//49.7574194,13.3130011">Parkoviště 3</a> a <a href="https://www.google.com/maps/dir//49.7583185,13.3132885" target="_blank" rel="noopener noreferrer">Parkoviště 4</a>). Po obřadu budou následovat gratulace a focení svatebčanů s
           novomanželi v Zámeckém parku.
         </p>
       </div>
       <div className="info-section">
         <h2>Svatební Hostina</h2>
         <p>
-          Po focení se přesuneme na svatební hostinu do Sokolovny Křimice (cca
-          500 metrů - v mapě: Sokolovna Křimice). Zde bude následovat slavnostní oběd a nadcházející program
+          Po focení se přesuneme na svatební hostinu do Sokolovny Křimice (přibližně
+          500 metrů - v mapě: <a href="https://www.google.com/maps/dir//49.7575776,13.3130105" target="_blank" rel="noopener noreferrer">Sokolovna Křimice</a>). Zde bude následovat slavnostní oběd a nadcházející program
           (viz <a href="#schedule">Harmonogram</a>). Oběd bude servírovaný, v průběhu celého dne se
           můžete těšit na bohatý raut, sladký bar, sushi bar a klasický
           alkoholický/nealkoholický bar ;). Mimo jiné se můžete těšit na
