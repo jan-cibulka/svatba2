@@ -8,6 +8,17 @@ interface TimeLeft {
   seconds: number;
 }
 
+const getPlural = (
+  number: number,
+  singular: string,
+  plural2to4: string,
+  plural5plus: string
+): string => {
+  if (number === 1) return singular;
+  if (number >= 2 && number <= 4) return plural2to4;
+  return plural5plus;
+};
+
 const calculateTimeLeft = (): TimeLeft | null => {
   const weddingDate = new Date("2025-06-21T12:00:00");
   const difference = weddingDate.getTime() - new Date().getTime();
@@ -44,19 +55,23 @@ const Countdown: FC = () => {
     <div className="countdown">
       <div className="countdown-item">
         <span>{timeLeft.days}</span>
-        <label>Dní</label>
+        <label>{getPlural(timeLeft.days, "Den", "Dny", "Dní")}</label>
       </div>
       <div className="countdown-item">
         <span>{timeLeft.hours}</span>
-        <label>Hodin</label>
+        <label>{getPlural(timeLeft.hours, "Hodina", "Hodiny", "Hodin")}</label>
       </div>
       <div className="countdown-item">
         <span>{timeLeft.minutes}</span>
-        <label>Minut</label>
+        <label>
+          {getPlural(timeLeft.minutes, "Minuta", "Minuty", "Minut")}
+        </label>
       </div>
       <div className="countdown-item">
         <span>{timeLeft.seconds}</span>
-        <label>Sekund</label>
+        <label>
+          {getPlural(timeLeft.seconds, "Sekunda", "Sekundy", "Sekund")}
+        </label>
       </div>
     </div>
   );
