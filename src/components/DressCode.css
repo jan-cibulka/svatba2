@@ -115,7 +115,6 @@
 .arrow-left {
   width: 70px;
   height: 55px;
-  margin-top: 8px;
   margin-right: 10px;
   background-image: url("/arrow_left.svg");
   background-repeat: no-repeat;
@@ -123,6 +122,7 @@
   background-size: contain;
   margin-left: auto;
   filter: var(--color-text-2); /* Match text color */
+  margin-bottom: 18px;
 }
 
 .arrow-right {
