@@ -30,6 +30,8 @@ const DressCode: FC = () => {
           <h2>Muži:</h2>
           <p>Obleky a saka</p>
           <p>v tmavých barvách.</p>
+          <p>Doplňky (kravaty, motýlky)</p>
+          <p>v barvách svatby.</p>
           <div className="arrow-left"></div>
         </div>
         <div className="dress-code-image men-image" />
