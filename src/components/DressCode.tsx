@@ -28,7 +28,7 @@ const DressCode: FC = () => {
       <div className="dress-code-section">
         <div className="dress-code-text">
           <h2>Muži:</h2>
-          <p>Obleky, saka, košile</p>
+          <p>Obleky a saka</p>
           <p>v tmavých barvách.</p>
           <div className="arrow-left"></div>
         </div>
